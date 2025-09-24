@@ -105,3 +105,69 @@ console.log("x || y:", x || y); // true
 
 // Ternary Operator (Conditional)
 // condition ? valueIfTrue : valueIfFalse
+
+// -------------------------------------------------------------------------------------------------------
+// Conditional Statements: if, else if, else, switch
+
+// Example using if, else if, else
+let marks = 78;
+if (marks >= 90) {
+console.log("A");
+} else if (marks >= 75) {
+console.log("B");
+} else {
+console.log("C");
+}
+
+// Example using switch
+let fruit = "apple";
+switch (fruit) {
+case "banana":
+console.log("Yellow");
+break;
+case "apple":
+console.log("Red");
+break;
+default:
+console.log("Unknown");
+}
+
+// if statement with return
+function checkAge(age) {
+    if (age < 18) return "Denied";
+    return "Allowed";
+}
+
+// -------------------------------------------------------------------------------------------------------
+// loops in javascript
+// example using for loop
+for(let i=1; i<=5; i++){
+    console.log("Thank you universe",i);
+}
+
+// example using while loop
+let i = 1;
+while(i<=5){
+    console.log("Thank you universe for everything",i);
+    i++;
+}
+
+// example using do-while loop
+let j = 1;
+do{
+    console.log("This will run at least once",j);
+    j++;
+}while(j>=5);
+
+// break and continue statements
+for(let k=1; k<=10; k++){
+    if(k===6){
+        break; // exits the loop when k is 6
+    }
+    if(k%2===0){
+        continue; // skips even numbers
+    }
+    console.log("Odd number:",k);
+}
+
+// -------------------------------------------------------------------------------------------------------
