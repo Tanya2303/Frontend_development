@@ -171,3 +171,50 @@ for(let k=1; k<=10; k++){
 }
 
 // -------------------------------------------------------------------------------------------------------
+// FUNCTIONS in javascript
+// Functions are blocks of reusable logic.
+function greet(name) { // name is a parameter 
+console.log("Hello " + name);
+}
+greet("Harsh"); // Harsh is an argument
+
+// Function expressions - Functions stored in variables
+const greet = function () {
+console.log("Hello!");
+};
+
+// Arrow functions - A shorter syntax for writing functions
+const greet = () => {
+console.log("Hi!");
+};
+
+// Spread parameter - Allows a function to accept an indefinite number of arguments as an array
+function sum(...nums) {
+return nums.reduce((acc, val) => acc + val, 0);
+}
+
+// First-Class Functions
+function shout(msg) {
+return msg.toUpperCase();
+}
+function processMessage(fn) {
+console.log(fn("hello"));
+}
+processMessage(shout);
+
+// Higher-Order Functions (HOF)
+function createMultiplier(x) {
+return function (y) {
+return x * y;
+};
+}
+let double = createMultiplier(2);
+console.log(double(5)); // 10
+
+
+//IIFE – Immediately Invoked Function Expression
+(function () {
+console.log("Runs immediately");
+})();
+
+// -------------------------------------------------------------------------------------------------------
