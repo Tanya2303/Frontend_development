@@ -49,4 +49,32 @@ console.log(a.getAttribute("href"))
 a.removeAttribute("href")
 
 // ----------------------------------------------------------------------------------------------------------
+// Dynamic DOM manipulation
 
+// createElement
+let newElement = document.createElement("p")
+newElement.innerText = "This is a new paragraph"
+console.log(newElement) // <p>This is a new paragraph</p> 
+document.body.appendChild(newElement) //yeh body k end m add kr dega
+document.querySelector("body").prepend(newElement) //yeh body k start m add kr dega
+
+// removeChild
+document.body.removeChild(newElement) //yeh newElement ko body se remove kr dega
+
+// -------------------------------------------------------------------------------------------------------
+// style updation
+
+let h2 = document.querySelector("h2")
+h2.style.color = "red"
+h2.style.backgroundColor = "yellow"
+h2.style.padding = "10px"
+h2.style.textAlign = "center"
+h2.style.fontFamily = "Arial"
+h2.style.border = "2px solid black"
+
+
+a.classList.add("class1") //add class
+// a.classList.remove("class1") //remove class
+// a.classList.toggle("class1") //if class is present then remove it otherwise add it
+
+// -------------------------------------------------------------------------------------------------------
