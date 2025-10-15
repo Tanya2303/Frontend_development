@@ -1,3 +1,5 @@
+// Chapter 1: Variables & Declarations
+
 // variables in javascript are of two types: var and let
 // var – Old and risky
 // var is function scoped, Can be redeclared and reassigned
