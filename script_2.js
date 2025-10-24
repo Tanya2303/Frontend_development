@@ -114,9 +114,9 @@ p.forEach(function (p) {
     })
 })
 
-// p.removeEventListener("click", function () {  
-//     p.style.color = "red"
-// }) //yeh kaam nhi karega kyuki function alag h dono m
+p.removeEventListener("click", function () {  
+    p.style.color = "red"
+}) //yeh kaam nhi karega kyuki function alag h dono m
 
 // name of event
 // click
