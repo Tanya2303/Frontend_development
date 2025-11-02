@@ -176,3 +176,39 @@ list1.addEventListener("click", function (dets) {
 
 // ============================================================================================================================
 
+//Local Storage and Session Storage
+
+//local storage - data stored in local storage is persistent and remains even after the browser is closed
+
+//store kaise kare = setItem
+localStorage.setItem("username", "tanya2303")
+
+//retrieve kaise kare = getItem
+let name = localStorage.getItem("username")
+console.log(name)
+
+//remove kaise kare = removeItem
+localStorage.removeItem("username")
+
+//clear kaise kare = clear
+localStorage.clear()
+
+// Session storage - data stored in session storage is temporary and gets cleared when the browser tab is closed
+
+//store kaise kare = setItem
+sessionStorage.setItem("sessionName", "tempUser")
+
+//retrieve kaise kare = getItem
+let sessionName = sessionStorage.getItem("sessionName")
+console.log(sessionName)
+
+//remove kaise kare = removeItem
+sessionStorage.removeItem("sessionName")
+
+//clear kaise kare = clear
+sessionStorage.clear()
+
+// cookies - small pieces of data stored on the user's computer by the web browser while browsing a website
+
+//create a cookie
+document.cookie = "user=John Doe; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/"
