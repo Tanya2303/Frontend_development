@@ -19,4 +19,14 @@ fragments are used to group a list of children without adding extra nodes to the
 
  complete structure of react app 
 
- 
+ rafce -> react arrow function component export
+
+
+ component notes 
+ -> card.jsx 
+
+props -> props are used to pass data from parent component to child component.
+props are read-only.
+props are immutable.
+props are used to make the component reusable.
+props are used to make the component dynamic.       
