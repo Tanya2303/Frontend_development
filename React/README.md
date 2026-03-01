@@ -30,3 +30,8 @@ props are read-only.
 props are immutable.
 props are used to make the component reusable.
 props are used to make the component dynamic.       
+
+arrays as a props -> we can pass arrays as props to a component and we can use that array in the component to render the data.
+code snippet for passing array as props 
+array.map
+
