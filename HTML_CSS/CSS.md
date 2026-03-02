@@ -694,7 +694,7 @@ The `transform` property lets you **visually modify an element** by moving, rota
 <details>
 <summary><h2>🛠️14. Project Exercises</h2></summary>
 
-### Project Exercise 3: Styling The Page
+### Project Exercise 1: Styling The Page
 
 **Task:** Style a blog page using CSS.
 
@@ -713,7 +713,7 @@ The `transform` property lets you **visually modify an element** by moving, rota
 
 ---
 
-### Project Exercise 4: Two-Column Layout with Flexbox
+### Project Exercise 2: Two-Column Layout with Flexbox
 
 **Task:** Build a two-column web layout using Flexbox.
 
@@ -731,7 +731,7 @@ The `transform` property lets you **visually modify an element** by moving, rota
 
 ---
 
-### Project Exercise 5: Style Your Form!
+### Project Exercise 3: Style Your Form!
 
 **Task:** Make an HTML form look great using CSS with interactive effects.
 
