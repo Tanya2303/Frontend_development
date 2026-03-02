@@ -1,9 +1,5 @@
 # 📱 Responsive CSS – Complete Notes
 
----
-
-## 1️⃣ 📐 Responsive Design Fundamentals
-
 <details>
 <summary><h2>📱 Responsive Design Overview</h2></summary>
 
@@ -31,8 +27,6 @@ The goal is to provide a seamless user experience regardless of device.
 </details>
 
 ---
-
-## 2️⃣ 📲 Mobile-First Approach
 
 <details>
 <summary><h2>📱 Mobile-First Strategy</h2></summary>
@@ -84,8 +78,6 @@ body {
 </details>
 
 ---
-
-## 3️⃣ 📏 Media Queries & Breakpoints
 
 <details>
 <summary><h2>📱 Media Queries</h2></summary>
@@ -164,8 +156,6 @@ $breakpoint-desktop: 1024px;
 
 ---
 
-## 4️⃣ 🧩 CSS Grid for Responsive Layouts
-
 <details>
 <summary><h2>📱 CSS Grid System</h2></summary>
 
@@ -235,8 +225,6 @@ It is ideal for complex and responsive layouts.
 </details>
 
 ---
-
-## 5️⃣ 🖼 Responsive Photo Gallery Project
 
 <details>
 <summary><h2>📱 Responsive Photo Gallery using CSS Grid</h2></summary>
@@ -322,8 +310,6 @@ For fully fluid layouts:
 
 ---
 
-## 6️⃣ 📏 Relative Units for Responsiveness
-
 <details>
 <summary><h2>📱 Relative Units</h2></summary>
 
@@ -373,8 +359,6 @@ p {
 </details>
 
 ---
-
-## 7️⃣ 🎨 SCSS (Sassy CSS)
 
 <details>
 <summary><h2>📱 SCSS Features</h2></summary>
@@ -452,8 +436,6 @@ body {
 </details>
 
 ---
-
-## 8️⃣ 🚀 Performance Optimization
 
 <details>
 <summary><h2>📱 Image Optimization</h2></summary>
