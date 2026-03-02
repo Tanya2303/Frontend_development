@@ -1569,6 +1569,3 @@ GENERIC CONTAINERS
 
 </details>
 
----
-
-*📌 Notes compiled for frontend developers — covers HTML5 standards. Always validate at [W3C Validator](https://validator.w3.org) and test with [WAVE](https://wave.webaim.org) for accessibility.*
