@@ -35,7 +35,7 @@ const RightContent = () => {
   ];
 
   return (
-    <div className="w-[70%] overflow-x-auto">
+    <div className="w-[70%] overflow-x-auto no-scrollbar">
       
       <div className="flex gap-6 px-6">
         {cardsData.map((card, index) => (
