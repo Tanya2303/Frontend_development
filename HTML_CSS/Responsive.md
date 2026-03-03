@@ -1,7 +1,7 @@
 # 📱 Responsive CSS – Complete Notes
 
 <details>
-<summary><h2>📱 Responsive Design Overview</h2></summary>
+<summary><h2>Responsive Design Overview</h2></summary>
 
 ### ✅ What is Responsive Design?
 
@@ -29,7 +29,7 @@ The goal is to provide a seamless user experience regardless of device.
 ---
 
 <details>
-<summary><h2>📱 Mobile-First Strategy</h2></summary>
+<summary><h2>Mobile-First Strategy</h2></summary>
 
 ### ✅ What is Mobile-First?
 
@@ -80,7 +80,7 @@ body {
 ---
 
 <details>
-<summary><h2>📱 Media Queries</h2></summary>
+<summary><h2>Media Queries</h2></summary>
 
 ### ✅ Purpose
 
@@ -157,7 +157,7 @@ $breakpoint-desktop: 1024px;
 ---
 
 <details>
-<summary><h2>📱 CSS Grid System</h2></summary>
+<summary><h2>CSS Grid System</h2></summary>
 
 ### ✅ What is CSS Grid?
 
@@ -227,7 +227,7 @@ It is ideal for complex and responsive layouts.
 ---
 
 <details>
-<summary><h2>📱 Responsive Photo Gallery using CSS Grid</h2></summary>
+<summary><h2>Responsive Photo Gallery using CSS Grid</h2></summary>
 
 ### 🎯 Project Goal
 
@@ -361,7 +361,7 @@ p {
 ---
 
 <details>
-<summary><h2>📱 SCSS Features</h2></summary>
+<summary><h2>SCSS Features</h2></summary>
 
 ---
 
@@ -438,7 +438,7 @@ body {
 ---
 
 <details>
-<summary><h2>📱 Image Optimization</h2></summary>
+<summary><h2>Image Optimization</h2></summary>
 
 ### ✅ Why Optimize Images?
 
@@ -472,7 +472,7 @@ body {
 ---
 
 <details>
-<summary><h2>📱 Lazy Loading</h2></summary>
+<summary><h2>Lazy Loading</h2></summary>
 
 ### ✅ What is Lazy Loading?
 
